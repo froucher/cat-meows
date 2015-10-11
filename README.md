@@ -1,7 +1,7 @@
 # cat-meows
 
 ## what is it
-It is a very basic example of **Model View Controller** pattern in Javascript with minimun dependencies.
+It is a quite simple example of **Model View Controller** pattern in Javascript with minimun dependencies.
 
 ## demo
-http://froucher.github.io/cat-meows/cat-meows.html
+http://froucher.github.io/cat-meows-simple-mvc/index.html
