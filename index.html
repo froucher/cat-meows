@@ -1,31 +1,28 @@
 <html>
 <head>
  <title>Cat Meow - Basic MVC</title>
- <link rel="stylesheet" type="text/css" href="cat-meows-simple-mvc.css">
+ <link rel="stylesheet" type="text/css" href="css/cat-meows-simple-mvc.css">
+ <script src="js/cat-meows-simple-mvc.js"></script>
 </head>
 <body>
- <div id="catSelector">
- </div>
 
- <table>
-  <tr>
-   <td>
-    <div id="catText"></div>
-    <img id="catPicture"></img>
-   </td>
-   <td>
-    <div>Admin</div>
+ <div id="catSelectorView"></div>
+
+ <div class="container">
+
+  <div id="catView"></div>
+
+  <div id="adminView">
     <form>
-     <span>Name</span> <input id='inputName' class="input"></input>
-     <span>Meow</span> <input id='inputMeow' class="input"></input>
-     <span>Image</span><input id='inputImage' class="input"></input>
+     <span>Name</span> <input id="inputName"> </input>
+     <span>Meow</span> <input id="inputMeow"> </input>
+     <span>Image</span><input id="inputImage"></input>
      <div>
       <a href="#" id="btnCancel">Cancel</a> <a href="#" id="btnSubmit">Submit</a>
      </div>
     </form>
-   </td>
-  </tr>
- </table>
- <script src="cat-meows-simple-mvc.js"></script>
+  </div>
+ </div>
+
 </body>
 </html>

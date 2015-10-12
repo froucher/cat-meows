@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(29, 31, 32);
+  color: rgb(255, 255, 255);
+}
+
+img {
+  width: 100%;
+  max-width: 550px;
+}
+
+a {
+  color: rgb(255, 255, 255)
+}
+
+input {
+  width:100%;
+  max-width: 360px;
+  display: block;
+  font-size: 1.1em;
+}
+
+.container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#catSelectorView {
+  font-size: 2em;
+}
+
+#catView {
+  font-size: 2em;
+}
+
+#adminView {
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
