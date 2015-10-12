@@ -9,7 +9,13 @@ function loadScript(url, callback)
   head.appendChild(script);
 }
 
-loadScript('js/model.js', function() { console.log('model is loaded.'); });
-loadScript('js/views.js', function() { console.log('views is loaded.'); });
-loadScript('js/controller.js', function() { console.log('controller is loaded.'); controller.init(); });
-
+loadScript('js/model.js', function() {
+  loadScript('js/views.js', function() {
+    loadScript('js/controller.js', function() {
+      console.log('controller has been loaded.');
+      controller.init();
+    });
+    console.log('views has been loaded.');
+  });
+  console.log('model has been loaded.');
+});
