@@ -5,36 +5,43 @@ body {
 
 img {
   width: 100%;
-  max-width: 550px;
+  max-width: 450px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(255, 171, 171);
+  cursor: pointer;
 }
 
 a {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 171, 171);
 }
 
 input {
   width:100%;
   max-width: 360px;
   display: block;
-  font-size: 1.1em;
 }
 
 .container {
   padding-top: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 #catSelectorView {
-  font-size: 2em;
+  font-size: 4vw;
 }
 
 #catView {
-  font-size: 2em;
+  font-size: 7vmin;
 }
 
 #adminView {
   padding-top: 40px;
-  padding-left: 10px;
-  font-size: 1.2em;
+  padding-right: 1.5vw;
+  min-width: 160px;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
